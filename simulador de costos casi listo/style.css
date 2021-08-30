@@ -1,0 +1,22 @@
+*{
+    text-align: center;
+    color: red;
+    margin: 5px;
+}
+body {
+    background-image: url(./descarga.jpg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1 {
+    padding: 5rem;
+    background: linear-gradient(black, blue);
+    color: white;
+}
+.btn {
+    color: red !important;
+}
+span {
+    margin: 5rem;
+}
