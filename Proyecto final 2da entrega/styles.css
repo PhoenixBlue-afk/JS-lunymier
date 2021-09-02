@@ -1,0 +1,62 @@
+* {
+    font-family: cursive;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+}
+#navbar {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+    color: black;
+    
+}
+.elem {
+    margin-right: 20px;
+    margin-left: 20px;
+    position: relative;
+    left: 37rem;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+#botonFinal {
+    text-align: center;
+}
+
+#cards {
+    text-align: center;    
+}
+#div-boton-oculto {
+    text-align: center;
+}
+
+#galeria {
+    display: flex;
+    justify-content: space-between;
+  }
+  section {
+      text-align: center;
+  }
+  #seccion{
+      text-align: center;
+  }
+  #modal{
+      text-align: center;
+  }
+  #contenedor{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    
+    justify-content: space-around;
+  }
