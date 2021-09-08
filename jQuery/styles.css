@@ -1,0 +1,50 @@
+* {
+    font-family: cursive;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+}
+.navbar {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+    color: black;
+    
+}
+.elem {
+    margin-right: 20px;
+    margin-left: 20px;
+    position: relative;
+    left: 37rem;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+#botonFinal {
+    text-align: center;
+
+}
+
+#boton {
+    text-align: center;
+}
+
+#cards {
+    text-align: center;    
+}
+#div-boton-oculto {
+    text-align: center;
+    margin-top: 15px;
+}
+#boton-oculto{
+    transition: ease-in .5s;
+}
