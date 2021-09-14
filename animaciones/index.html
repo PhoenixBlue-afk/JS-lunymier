@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador</title>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script  defer src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header>
+        <ul id="navbar">
+            <li class="elem" id="active">Inicio</li>
+            <li class="elem">Listado</li>
+            <li class="elem">Contacto</li>
+            <li  id="carrito-btn"class="elem">Carrito</li>
+        </ul>
+    </header>
+    <main>
+        <h1>Mi libreria</h1>
+        <h2>Lista de precios</h2>
+        <h3>E-commerce</h3>
+        <section class="container my-5">
+            <div  class="container">
+            <div id="galeria" class="row"></div>
+            </div>
+        </section>
+        <div id="botonFinal">
+            <button type="button" class="btn btn-primary" id="carrito">Ver carrito!!!</button>
+            <h2 id="tituloCarrito">Su Carrito es:</h2>
+            <!--<div class="container">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">ID</th>
+                            <th scope="col">Producto</th>
+                            <th scope="col">Cantidad</th>
+                            <th scope="col">Restar/Sumar</th>
+                            <th scope="col">Sub-Total</th>
+                        </tr>
+                    </thead>
+                    <tbody id="items"></tbody>
+                    <tfoot>
+                        <tr id="footer">
+                            <th scope="row" colspan="5">Carrito Vacio</th>
+                        </tr>
+                    </tfoot>
+                </table>
+                
+            </div>
+            <template id="template-footer">
+                <th scope="row" colspan="2">Total productos</th>
+                <td>10</td>
+                <td>
+                    <button class="btn btn-danger btn-sm" id="vaciar-carrito">
+                        vaciar todo
+                    </button>
+                </td>
+                <td class="font-weight-bold">$ <span>5000</span></td>
+            </template>-->
+            
+     
+        </div>
+        <div id="contenedor" class="container">
+            <div id="div-boton-oculto"></div>
+                <button type="button" class="btn btn-warning" id="vaciar">Vaciar Carrito</button>
+                <button type="button"  class="btn btn-danger" id="boton-oculto">Cerrar Carrito</button>
+                
+            </div>
+        </div>
+    
+        <div>
+            <span>
+                <p>
+                    consulten todos nuestros valores y disponibilidades
+                </p>
+                <img src="../triangulos.png" alt="triangulos">
+            </span>
+        </div>
+    </main>
+    <footer>
+        <h6>Todos los derechos reservados ahre</h6>
+    </footer>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</html>
